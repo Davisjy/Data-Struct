@@ -12,5 +12,7 @@
 @property (nonatomic, assign) int value;
 @property (nonatomic, strong) BinaryTreeNode *leftNode;
 @property (nonatomic, strong) BinaryTreeNode *rightNode;
+// 可维护一个parent结点
+@property (nonatomic, strong) BinaryTreeNode *parentNode;
 @end
 
